@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+   .navbar a span{
+    font-family: cursive; font-weight: bolder; font-size: larger; color: rgb(246, 246, 9);
+   }
+   .navbar div a{
+    padding: 1px 30px;
+    font-size: 20px;
+   }
+   .navbar h1{
+    font-family: cursive;
+    color: rgb(252, 253, 250); 
+   }
+
+   .carousel img{
+    height: 500px;
+    width: 100%;
+   }
+   .body{
+    height: auto;
+   padding: 40px;
+   color: cornsilk;
+   width: 100%;
+   font-family: cursive;
+   background: url(https://img.freepik.com/free-photo/digital-circle-circuit-blue-background-futuristic-technology_53876-124643.jpg?w=1060&t=st=1678602900~exp=1678603500~hmac=e07662cb693e98e7fc706f3c72f5f5a8181f6fbeacad5f6ef1b05d57e16cacac);
+   }
+ 
+   .body h1 span{
+    font-family: cursive; font-size: 40px; color: yellow;
+   }
+   .body h3 span{
+    font-family: cursive; font-size: 40px; color: yellow;
+   }
+   .body h1 span:hover{
+    font-family: cursive; font-size: 70px; color: rgb(196, 240, 120);
+    background-color: rgb(12, 12, 12);
+   }
+   .body button {
+    border: 5px black solid;
+    padding: 5px;
+    margin-top: 5px ;
+   }
+   .body a{
+    text-decoration: none;
+    color: black;
+   }
+   .body button:hover{
+    border: 10px solid rgb(75, 3, 3);
+    font-size:30px;
+    text-decoration: bold;
+   }
+  
+   .skills{
+    height: auto;
+    background-color: black;
+   }
+   .skills h1{
+    color: aliceblue;
+    text-align: center;
+   }
+   .skills h1:hover{
+    color: rgb(14, 120, 213);
+    text-align: center;
+    font-size: 70px;
+    font-family: cursive;
+   }
+   .card{
+    display: inline-block;
+    margin: 20px;
+    border: rgb(241, 241, 9) 10px solid;
+   
+   }
+   .card:hover{
+    display: inline-block;
+    margin: 20px;
+    opacity: 0.6;
+    border: rgb(174, 174, 44) 10px solid;
+   
+   }
+   .card img{
+    height: 150px;
+    width: 240px;
+    border: 5px grey;
+   }
+ 
+.info{
+    height: auto;
+}
+.info h1{
+    margin: 20px;
+    padding: 24px;
+    font-size: 60px;
+    font-family: cursive;
+}
+.info img{
+    height: 300px;
+    width: 600px;
+    padding: 5px ;
+    margin-left: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px black solid; 
+    background-color: yellow;
+   
+}
+@media only screen and (max-width:600px){
+    .info img {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width:750px){
+    .info img {
+        margin-left: 15px;
+        width: 80%;
+    }
+}
+@media only screen and (max-width:950px){
+    .info img {
+        margin-left: 10px;
+        width: 80%;
+    }
+}
+
+
+
+.info h2{
+    text-align: center;
+    color: rgb(207, 9, 9);
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+.info h2:hover{
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid green;
+    background-color: rgb(213, 243, 131);
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    
+}
+.info h4 {
+    font-family: cursive;
+    padding-left: 100px;
+    padding-right: 120px;
+    color: aliceblue;
+    text-align: justify;
+} 
+.info h3{
+    padding-top: 20px ;
+    color: rgb(19, 1, 1);
+    text-align: center;
+    color: aliceblue;
+}
+.pro{
+    border: 2px solid rgb(239, 2, 2);
+    margin: 25px;
+    padding: 45px;
+    background-color: rgb(7, 7, 7)
+}
+
+.qualification h1{
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px yellow solid;
+    background-color: red;
+    width: 40%;
+    
+}
+.qualification h3{
+  font-size: 20px;
+}
+
+.qualification table{
+    border: 5px rgb(163, 163, 47) solid;   
+}
+
+
+.qualification span{
+    font-family: cursive;
+    font-size: 20px;
+    color: yellow;
+}
+.bgimg{
+    background: url(https://th.bing.com/th/id/R.e4f5a453172006a6fb2210bc82024148?rik=6eMJ0pD%2bQQiRbA&riu=http%3a%2f%2fwww.howardgrubb.co.uk%2fphotos%2fpennines%2fIMG_1036.JPG&ehk=qydaDpCZO7EvPBQJgKCRNrtUUJTQRri7Q%2bNWvCtgdug%3d&risl=&pid=ImgRaw&r=0);
+    height: 400px;
+    width: 100%;
+}
+
+
+
+   .footer{
+    height: auto;
+ 
+   }
+   .footer h1{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+   }
+   .link{
+    margin: 20px  85px;
+    display: inline-block;
+    border: 5px solid grey;
+  
+    
+   }
+   .link img{
+    height: 55px;
+    width: 55px;
+    
+   }
+   .pd{
+    margin-top: 5px;
+   padding: 5px;
+   margin-left: 40%;
+    display:flex;
+    
+   }
+   .pd h5{
+   color: aliceblue;
+   font-family: cursive;
+}
+   .pd img{
+   margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    border: 3px rgb(10, 10, 0) solid;
+   }
+   .copy{
+    margin-top: 50px;
+    font-family: cursive;
+   }
+  
+   
+  
